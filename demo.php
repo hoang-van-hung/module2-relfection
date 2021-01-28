@@ -1,22 +1,33 @@
 <?php
-class User{
-    private $name;
-    private $phone;
-    private $adress;
+namespace demo;
 
-    public function __construct($name, $phone,$adress)
+
+class UserManager
+{
+    protected $filePath;
+
+    public function __construct($filePath)
     {
-        $this->name=$name;
-        $this->phone=$phone;
-        $this->adress =$adress;
+        $this->filePath = $filePath;
     }
-    function setName($name){
-        $this->name=$name;
+
+    function add($data) {
+        $dataFile = $this->readFileJson();
+        array_push($dataFile, $data);
+        $this->saveFile($dataFile);
     }
-    function getName(){
-        return $this->name;
+
+    function readFileJson() {
+        $dataJson = file_get_contents($this->filePath);
+        return json_decode($dataJson);
+    }
+
+    function saveFile($data) {
+        $dataJson = json_encode($data);
+        file_put_contents($this->filePath, $dataJson);
+    }
+
+    function getAll() {
+        return $this->readFileJson();
     }
 }
-$user= new User("hoa","012345678","thanh xuan");
-$user->setName("quan");
-echo $user->getName();
