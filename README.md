@@ -1,4 +1,12 @@
 # module2-relfection
+###Ngày 29/1:
+3 điều học được : <br>
+-Vòng đời của một đối tượng bao gồm: __construct, some_method, __destruct <br>
+-Kế thừa là một đặc tính trong OOp, trong đó lớp con được tạo ra từ lớp cha và nó kế thừa tất cả các thuộc tính và phương thức của lớp cha. <br>
+-Lớp con có tất cả các thuộc tính, phương thức của lớp cha và một số thuộc tính, phương thức khác nên ta cần dùng phương thức nạp chồng <br>
+2 ví  
+php.demo
+
 ###Ngày 28/1 :
 ***
 3 điều học được : <br>
