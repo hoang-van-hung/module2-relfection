@@ -6,6 +6,8 @@
 -Lớp con có tất cả các thuộc tính, phương thức của lớp cha và một số thuộc tính, phương thức khác nên ta cần dùng phương thức nạp chồng <br>
 2 ví  
 php.demo
+<br>
+<br>
 
 ###Ngày 28/1 :
 ***
@@ -18,6 +20,8 @@ php.demo
 2 ví dụ: <br>
 demo.php
 (namespace +json_decode +json_endcode)
+<br>
+<br>
 
 ###Ngày 27/1 :
 ***
@@ -39,6 +43,8 @@ Riêng : <br>
 -include: khi bị lỗi sẽ chỉ tạo ra cảnh báo và tập lệnh sẽ tiếp tục được thực hiện <br>
 -include_once: giống với require_once
   
+  <br>
+  <br>
   
   ###Ngày 26/1 :
 ***
