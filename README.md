@@ -1,4 +1,34 @@
+
 # module2-relfection
+#Ngày 1/2/2021 : <br>
+>Abstract class là một class, có tính trừu tượng cao, không thể tạo các đối tượng của lớp này. Nó có phương thức được khai báo nhưng không có phần thân.
+Abstract class định nghĩa các methods, properties giống nhau bản chất.<br>
+>Dùng Abstract class để tái sử dụng code giữa các đoạn code liên quan, thể hiện tính đa hình trong OOP.Giúp cho việc bảo trì và nâng cấp hệ thông sau này dễ dàng, nhanh chóng hơn.
+<br>
+
+<ul>
+Điểm giống và khác nhau giữa Abstract class và class thường<br>
+  Giống :
+  <li>Đều là class</li>
+  <li>Có thể chứa thuộc tính, phương thức</li>
+  Khác :
+  <li>Abstract class có tính trừu tượng rất cao, không thể tạo được các đối tượng của lớp đó.</li>
+  <li>Phương thức được khai báo nhưng không có phần thân,ngoài ra nó còn có thể có thuộc tính và phương thức bình thương</li>
+  <li>Lớp bình thường kế thừa lớp abstract thì phải triển khai tất cả phương thức abstract của lớp cha.</li>
+  <li>Lớp và phương thức abstract thì không thể là final</li>
+</ul> 
+ <li></li>
+ <li></li>
+INTERFACE :Là cấu trúc tương tự lớp, chỉ chứa hằng số và abstract method.Nó quy định các hành vi chung cho các lớp triển khai nó, là bản thiết kế cho các method. Các method có định nghĩa giống nhau nhưng khác nhau về bản chất. Sử dụng từ khóa "interface".Một lớp triển khai interface thì cần triển khai tất cả các phương thức được khai báo trong đó <br>
+Sử dụng Interface trong trường hợp các class không có quan hệ gần gũi với nhau,bổ sung cho hỗ trợ đa kế thừa.
+ 
+
+
+
+
+
+   
+<br> <br>
 ###Ngày 29/1:
 3 điều học được : <br>
 -Vòng đời của một đối tượng bao gồm: __construct, some_method, __destruct <br>
