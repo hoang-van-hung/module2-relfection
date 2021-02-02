@@ -1,5 +1,33 @@
 
 # module2-relfection
+#Ngày 2/2/2021 : <br>
+<ol type =1>Các cách thực hành clean code :
+  <li>Đặt tên biến có nghĩa :Là các danh từ (meaningfull name) </li>
+  <li>Đặt tên phương thức là các động từ , </li>
+  <li>Đặt tên đọc được, không viết tắt, không quá dài </li>
+  <li>Đăt tên theo các quy tắc : PascalCase ,cameCase ,snake_case </li>
+  <li>Tính nhất quán của code </li>
+  <li>Tránh các điều kiện âm (dùng 2 lần phủ định )</li>
+  <li>Mỗi function chỉ nên thực hiện một chức năng</li>
+  <li>Tránh lặp lại đoạn code (DRY) </li>
+  <li>Nguyên tắc KISS( keep it simple, stupid) giữ mọi thứ đơn giản , ngắn gọn nhất có thể </li>
+  <li>Hạn chế sửa đổi trực tiếp code mà khuyến kích mở rộng. Như thế code sẽ ổn định hơn và khả năng bảo trì tốt hơn</li>
+  <li>Nguyên lý 'hợp đối tượng thay vì thừa kế' (Đối tượng có hành vi phức tạp, nên bao gồm các thể hiện của nó cùng với các hành vi riêng lẻ hơn là dùng lại một lớp ) </li>
+  <li>Nguyên lý single responsibility- Một lớp chỉ nên thay đổi vì một lý do duy nhất</li>
+  <li>Nguyên lý Seperation of Concerns-Một chương trình phải được thiết kế sao cho nó bao gồm nhiều gói không giống nhau và các gọi không liên quan đến nhau </li>
+  <li>Nguyên tắc YAGNI-không nên code các chức năng mà sau này mới cần</li>
+  <li>Nguyên lý Avoid Premature tương tự YAGNI</li>
+  <li>Refactoring code </li>  
+</ol>
+<ul>SOLID : là 5 nguyên lý giúp lập trình viên phát triển phần mềm với kiến trúc tốt .
+  <li>S-Single responsibility principle :Mỗi lớp chỉ nên làm duy nhất một nhiệm vụ </li>
+  <li>O-Open closed principle: Luôn đóng với mọi thay đổi nhưng luôn mở đối với việc mở rộng </li>
+  <li>L-Liskov substitution principle :lớp cha dễ dàng thay thế lớp con</li>
+  <li>I-Interface segregation principle: thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ với nhiều mục đích cụ thể </li>
+  <li>D-Dependency inversion principle: Các module cấp cao không nên phục thuộc vào các module thấp.Cả 2 nên phụ thuộc vào abstraction ,chi tiết phụ thuộc vào interface (các class giao tiếp với nhau thông qua interface, không phải thông qua implementation ) </li>
+</ul>
+
+<br> <br>
 #Ngày 1/2/2021 : <br>
 >Abstract class là một class, có tính trừu tượng cao, không thể tạo các đối tượng của lớp này. Nó có phương thức được khai báo nhưng không có phần thân.
 Abstract class định nghĩa các methods, properties giống nhau bản chất.<br>
