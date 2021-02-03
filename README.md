@@ -1,5 +1,32 @@
 
 # module2-relfection
+#Ngay 3/2/2021 :
+>Cấu trúc giữ liệu là hình thức tổ chức một nhóm dữ liệu, mục đích là lưu trữ dữ liệu và cung cấp các phương thức để thao tác với dữ liệu
+>Lựa chon cấu trúc dữ liệu và thuật toán phù hợp là rất quan trọng đối với hiệu năng của ứng dụng.
+>>Các cấu trúc dữ liệu thông dung:
+<ul>
+  <li>Array : Mảng</li>
+  <li>Set : Nhóm các phần tử không trùng nhau</li>
+  <li>List :Nhóm các phần tử có thể trùng nhau</li>
+  <li>Stack : Nhóm các phần tử theo trật tự vào trước ra sau</li>
+  <li>Queue : Nhóm các phần tử theo trật tự vào trước ra trước</li>
+  <li>Map : Lưu trư theo cặp key->value </li>
+  <li>Tree: lưu trữ phần tử theo mối quan hệ cha - con </li>
+  <li>Graph: Lưu trữ phần tử theo mối quan hệ dạng lưới </li>
+</ul>
+ARRAY LIST là một danh sách, lưu trữ dữ liệu trong mảng, có thể thay đổi kích thước.Nó có ưu điểm là truy xuất các phần tử nhanh nhưng có khuyết điểm là thêm hoặc xóa các phần tử chậm. <br>
+LINKEDLIST có các phần tử liên kết với nhau thông qua tham chiếu. Nó truy xuất các phần từ ngẫu nhiên chậm nhưng bù lại việc thêm và xóa các phần tử lại cực nhanh.
+Cấu trúc : Nó hoạt động trên cơ chế liên kết giữa các node.Mỗi node chứa dữ liệu của node đó và liên kết đến node khác.<br>
+Các kiểu :
+<ul>
+  <li>Singly Linked List: Một node chỉ có một liên kết đến node phía sau.Node cuối trỏ đến NULL</li>
+  <li>Circular Singly LinkedList: Một node chỉ có một liên kết đến node phía sau.Node cuối cùng trỏ đến node đầu tiên</li>
+  <li>Doubly Linked List: Một node chứa hai liên kết trỏ đến phần tử đứng trước và sau nó.Phần tử trước của phần tử đầu tiên là NULL, phần tử sau của phần tử sau là NULL</li>
+  <li>Circular Doubly Linked List: tương tự như Doubly Linked List chỉ khác là node đầu tiên v</li>
+</ul>
+
+
+<br> <br>
 #Ngày 2/2/2021 : <br>
 <ol type =1>Các cách thực hành clean code :
   <li>Đặt tên biến có nghĩa :Là các danh từ (meaningfull name) </li>
