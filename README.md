@@ -1,5 +1,38 @@
 
 # module2-relfection
+# ngay 4/2/2021
+STACK là một kiểu cấu trúc dữ liệu, nó hoạt động giống như một ngăn xếp, hoạt động theo nguyên tắc First in-First out.Nó có thể là mảng hoặc là một LinkedList để lưu trữ các phần tử. 
+
+<ul>
+   Các thao tác cơ bản :
+  <li>push : Lưu trữ một phần tử trong ngăn xếp</li>
+  <li>pop : Xóa một phần tử trong ngăn xếp</li>
+  <li>peek :Lấy dữ liệu của một phần tử trên cùng ngăn xếp không xóa phần tử</li>
+  <li>isEmpty : Kiểm tra rỗng</li>
+  <li>isFull : Kiểm tra xem ngăn xếp có đầy hay không</li>
+  <li></li>
+</ul>
+QUEUE là một cấu trúc dữ liệu trừu tượng, là một cái gì đó tương tự như hàng đợi trong đời sống, tuân thủ theo nguyên lí First in-First out.
+<ul>
+Các thao tác cơ bản: 
+  <li>enqueue : Thêm hay lưu trữ một phần tử vào trong hàng đợi</li>
+  <li>dequeue : Lấy phần tử từ đầu hàng đợi, không xóa phần tử này</li>
+  <li>isEmpty : kiểm tra rỗng</li>
+  <li>isFull : Kiểm tra xem ngăn xếp có đầy hay không</li>
+  <li></li>
+</ul>
+TREE là một cấu trúc dữ liệu được sử dụng rộng rãi gồm một tập hợp các nút (node) được liên kết với nhau theo quan hệ cha-con. <br>
+Gồm các loại :
+-Cây nhị phân(Binay Tree) là cây rỗng hoặc là cây mà mỗi node có tối đa 2 node con.
+-Cây nhị phân tìm kiếm(Binay Search Tree) là một cây nhị phân mà tại mỗi node thì phần tử ở node đó lớn hơn các phần tử ở cây con bên trái, nhỏ hơn các phần tử ở cây con bên phải. <br>
+-Các hoạt động cơ bản :
+<ul>
+  <li>Chèn</li>
+  <li>Tìm kiếm</li>
+  <li>Duyệt tiền thứ tự</li>
+  <li>Duyệt trung thứ tự</li>
+  <li>Duyệt hậu thứ tự</li> 
+</ul>
 #Ngay 3/2/2021 :
 >Cấu trúc giữ liệu là hình thức tổ chức một nhóm dữ liệu, mục đích là lưu trữ dữ liệu và cung cấp các phương thức để thao tác với dữ liệu
 >Lựa chon cấu trúc dữ liệu và thuật toán phù hợp là rất quan trọng đối với hiệu năng của ứng dụng.
