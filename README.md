@@ -33,6 +33,8 @@ Gồm các loại :
   <li>Duyệt trung thứ tự</li>
   <li>Duyệt hậu thứ tự</li> 
 </ul>
+<br><br>
+***
 #Ngay 3/2/2021 :
 >Cấu trúc giữ liệu là hình thức tổ chức một nhóm dữ liệu, mục đích là lưu trữ dữ liệu và cung cấp các phương thức để thao tác với dữ liệu
 >Lựa chon cấu trúc dữ liệu và thuật toán phù hợp là rất quan trọng đối với hiệu năng của ứng dụng.
