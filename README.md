@@ -1,7 +1,7 @@
 
 # module2-relfection
 # Ngày 5/2/2021
-- SPL là bộ thư viên chuẩn của PHP, nó gồm tập hợp các interface, abstract class nhằm giải quyết các bài toán phổ biên.
+-SPL là bộ thư viên chuẩn của PHP, nó gồm tập hợp các interface, abstract class nhằm giải quyết các bài toán phổ biên.
 >Các thành phần của SPL :
 >> - Predefined Constants là danh sách các hằng số :số pi, số E,...
 >> - Datastructures chứa danh sách các lớp co khả năng làm việc với cấu trúc, dữ liệu khác nhau LinkList, Stack, Queue, Heaps,...
@@ -12,8 +12,8 @@
 >> - SPL Funtions cung cấp các hàm hỗ trợ cần thiết.
 >> - Miscellaneous Classes và Interface. <br>
 Các loại cấu trúc dữ liệu:
-- PHP DATASTRUCTURES <br>
-- SPL là bộ thư viện chuẩn của PHP.Cung cấp nhiều cấu trúc dữ liệu tiêu chuẩn để chúng ta có thể sử dụng ngay trong ứng dụng của mình.Các dữ liệu này được phân nhóm dựa vào các hình thức triển khai của chúng cũng như căn cứ vào cách sử dụng trong thực tê.
+-PHP DATASTRUCTURES <br>
+-SPL là bộ thư viện chuẩn của PHP.Cung cấp nhiều cấu trúc dữ liệu tiêu chuẩn để chúng ta có thể sử dụng ngay trong ứng dụng của mình.Các dữ liệu này được phân nhóm dựa vào các hình thức triển khai của chúng cũng như căn cứ vào cách sử dụng trong thực tê.
 > các cấu trúc dữ liệu trong SPL:
 >> - Doubly Linked List
 >> - Heaps
