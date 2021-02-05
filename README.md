@@ -10,9 +10,10 @@
 >> - Exception là danh sách điều khiển các lớp ngoại lệ
 >> - File Handling cung cấp các lớp làm việc với file trong hệ thống.
 >> - SPL Funtions cung cấp các hàm hỗ trợ cần thiết.
->> - Miscellaneous Classes và Interface. <br>
-Các loại cấu trúc dữ liệu:
--PHP DATASTRUCTURES <br>
+>> - Miscellaneous Classes và Interface. 
+<br> <br>
+> -Các loại cấu trúc dữ liệu:
+> -PHP DATASTRUCTURES <br>
 -SPL là bộ thư viện chuẩn của PHP.Cung cấp nhiều cấu trúc dữ liệu tiêu chuẩn để chúng ta có thể sử dụng ngay trong ứng dụng của mình.Các dữ liệu này được phân nhóm dựa vào các hình thức triển khai của chúng cũng như căn cứ vào cách sử dụng trong thực tê.
 > các cấu trúc dữ liệu trong SPL:
 >> - Doubly Linked List
