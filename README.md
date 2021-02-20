@@ -1,5 +1,15 @@
 
 # module2-relfection
+#Ngày 19/2/2021 :
+<ul>
+   <li>Ngoại lệ là những lỗi phát sinh trong quá trình thực thi.</li>
+   <li>Xử lý ngoại lệ là khả năng bắt và giải quyết ngoại lệ  bằng sử dụng "catch", khả năng tách logic xử lý ngoại lệ trong một hàm ra khỏi phần còn  lại của hàm sử dụng "try", cũng là khả năng tạo và ném ngoại lệ sử dụng "throw".</li>
+   <li>Hàm Try/Catch dùng để xử lý ngoại lệ, để chương trình thực hiện theo nghiệp vụ mình mong muốn.Trong đó mã liên quan đến thuật toán nằm trong khối "try", mã giải quyết lỗi nằm trong khối "catch".</li>
+   <li>Các lỗi thường gặp: lỗi cú pháp, lỗi khi chạy chương trình, lỗi về tính logic cấu trúc của chương trình.</li>
+   <li>Ngoài các hàm xử lý ngoại lệ có sẵn, người dùng có thể tạo ra những hàm xử lý ngoại lệ riêng biệt với những tác dụng khác nhau, tùy theo nghiệp vụ.</li>
+</ul>
+<br><br>
+
 # Ngày 5/2/2021
 -SPL là bộ thư viên chuẩn của PHP, nó gồm tập hợp các interface, abstract class nhằm giải quyết các bài toán phổ biên.
 >Các thành phần của SPL :
