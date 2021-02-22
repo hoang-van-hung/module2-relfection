@@ -1,6 +1,18 @@
 
 # module2-relfection
-#Ngày 19/2/2021 :
+# Ngày 22/2/2021
+Biểu thức chính quy để giúp kiểm tra dữ liệu người dùng nhập có thỏa mãn những yêu cầu đưa ra,nó cũng giúp tìm kiếm cũng như thay thế các chuỗi tùy chọn
+Sử dụng biểu thức chính quy giúp cho code đơn giản hơn, tăng hiệu suất chương trình lên nhiều lần.<br>
+PHP cung cấp nhiều hàm có sẵn để phục vụ việc thực hiện biểu thức chính quy như preg_match, preg_match_all , preg_split, preg_replace.<br>
+Cú pháp  :<br>
+     $Hàm_PHP($pattern, $str, &$matches); <br><br>
+Trong đó:     
+     $pattern ='/Biểu thức chính quy/' <br>
+     $str là chuỗi cần kiểm tra <br>
+     $matches là kết quả trả về, đây là một tham số tùy chọn, truyền vào ở dạng tham chiếu.<br><br>
+Tùy theo từng điều kiện đưa ra, ta sử dụng kết hợp các Mecharacters để đưa ra biểu thức chính quy thỏa mãn yêu cầu ban đầu.
+<br><br>
+# Ngày 19/2/2021 :
 <ul>
    <li>Ngoại lệ là những lỗi phát sinh trong quá trình thực thi.</li>
    <li>Xử lý ngoại lệ là khả năng bắt và giải quyết ngoại lệ  bằng sử dụng "catch", khả năng tách logic xử lý ngoại lệ trong một hàm ra khỏi phần còn  lại của hàm sử dụng "try", cũng là khả năng tạo và ném ngoại lệ sử dụng "throw".</li>
