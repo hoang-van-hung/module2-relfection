@@ -15,9 +15,12 @@ Sự khác biệt chính giữa DBMS và RDBMS
      <li>Các khóa và chỉ mục không được sử dụng trong DBMS. Ngược lại, trong RDBMS, chúng được sử dụng để thiết lập mối quan hệ giữa các bảng.</li>
      <li>DBMS không áp đặt các ràng buộc đối với các thuộc tính ACID. Ngược lại, RDBMS áp đặt các ràng buộc để giữ các thuộc tính ACID.</li>
      <li>Dbase, Microsoft Access, LibreOffice Base và ForPro là một số ví dụ về DBMS. Ngược lại, có một số RDBMS được sử dụng rộng rãi như SQL Server, Oracle, Mysql, SQLite,...</li>
-     <li></li>
-     <li></li>
 </ul>
+Các chuẩn hóa :
+-Chuẩn thứ nhất 1NF một bảng được gọi là thuộc chuẩn 1NF nếu giá trị của mỗi trường bao gồm một giá trị, không phải là một danh sách giá trị.Trường này được gọi là atomic.1NF cũng nghiêm cấm lặp lại các nhóm columns như item1, item2,...Thay vào đó nên tạo một bảng khác sử dụng mối quan hệ one-to-many. <br><br>
+Chuẩn thứ hai 2NF một bảng được gọi là thuộc chuẩn 2NF nếu nó đã thuộc 1NF và mỗi cột không phải là khóa chính không phụ thuộc hoàn toàn vào khóa chính.Hơn nữa, nếu khóa chính được tạo ra từ nhiều cột, mỗi cột không phải là khóa chính sẽ phụ thuộc vào toàn bộ tập hợp và không phải là một phần của nó. <br><br>
+Chuẩn thứ ba 3NF nếu nó là 2NF và các cột không phải là khóa là độc lập với nhau.Nói cách khác, các cột không phải là khóa là phụ thuộc vào khóa chính, chỉ khóa chính và không gì khác.<br><br>
+
 <br> <br>
 # Ngày 22/2/2021
 Biểu thức chính quy để giúp kiểm tra dữ liệu người dùng nhập có thỏa mãn những yêu cầu đưa ra,nó cũng giúp tìm kiếm cũng như thay thế các chuỗi tùy chọn
