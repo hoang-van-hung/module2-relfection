@@ -1,5 +1,24 @@
 
-# module2-relfection
+# Module2-relfection
+# Ngày 23/2/2021
+Hệ quản trị cơ sở dữ liệu(Database Management System )là hệ thống được thiết kế quản lí một khối lượng dữ liệu nhất định một cách tự động và có trật tự. Các hành động quản lý bao gồm chỉnh, sửa, xóa, lưu thông tin và tìm kiếm trong một nhóm dữ liệu nhất định. 
+Nói một cách khác hệ quản trị CSDL là hệ thống tự động giúp người dùng kiểm soát các thông tin, tạo, cập nhật và duy trì các CSDL. Trong đó có 2 thành phần chính trong một hệ quản trị CSDL là bộ xử lí yêu cầu và bộ quản lí dữ liệu.<br>
+Hệ quản trị CSDL quan hệ là một CSDL được xây dựng trên mô hình dữ liệu quan hệ(renation model of data), nó được tổ chức trong các bảng (table - quan hệ relation). Các thành phần có các quan hệ ràng buộc với nhau. <br>
+
+Sự khác biệt chính giữa DBMS và RDBMS
+<ul>
+     <li>DBMS theo mô hình điều hướng trong khi RDBMS theo mô hình quan hệ nơi dữ liệu được lưu trữ dưới dạng bảng và tồn tại mối quan hệ giữa các bảng đó.</li>
+     <li>Trong DBMS, các bản sao dữ liệu giống nhau có thể được lưu trữ ở nhiều nơi nhưng trong RDBMS dữ liệu dư thừa được loại bỏ bằng cách sử dụng chuẩn hóa.</li>
+     <li>Vì nhiều bản sao được lưu trữ tại các vị trí khác nhau trong DBMS, rất khó để sửa đổi cùng một tệp tại các vị trí khác nhau. Mặt khác, vì có sự trùng lặp dữ liệu không đáng kể trong RDBMS, nên rất dễ để thực hiện các thay đổi trong dữ liệu.</li>
+     <li>Dữ liệu được truy cập nhanh hơn trong trường hợp RDBMS. Ngược lại, DBMS tiêu tốn nhiều thời gian hơn trong việc truy cập dữ liệu.</li>
+     <li>Chỉ các ràng buộc toàn vẹn được sử dụng trong DBMS trong khi RDBMS sử dụng các ràng buộc dựa trên lược đồ và phụ thuộc dữ liệu.</li>
+     <li>Các khóa và chỉ mục không được sử dụng trong DBMS. Ngược lại, trong RDBMS, chúng được sử dụng để thiết lập mối quan hệ giữa các bảng.</li>
+     <li>DBMS không áp đặt các ràng buộc đối với các thuộc tính ACID. Ngược lại, RDBMS áp đặt các ràng buộc để giữ các thuộc tính ACID.</li>
+     <li>Dbase, Microsoft Access, LibreOffice Base và ForPro là một số ví dụ về DBMS. Ngược lại, có một số RDBMS được sử dụng rộng rãi như SQL Server, Oracle, Mysql, SQLite,...</li>
+     <li></li>
+     <li></li>
+</ul>
+<br> <br>
 # Ngày 22/2/2021
 Biểu thức chính quy để giúp kiểm tra dữ liệu người dùng nhập có thỏa mãn những yêu cầu đưa ra,nó cũng giúp tìm kiếm cũng như thay thế các chuỗi tùy chọn
 Sử dụng biểu thức chính quy giúp cho code đơn giản hơn, tăng hiệu suất chương trình lên nhiều lần.<br>
