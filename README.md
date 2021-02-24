@@ -1,5 +1,23 @@
 
 # Module2-relfection
+# Ngày 24/2/2021
+Phân tích và thiết kế CSDL là các thao tác được thực hiện để tìm ra một mô hình CSDL trong một tình huống nhất định, kết quả trả về là một bản thiết kế CSDL.Bản thiết kế này thường được biểu diễn dưới dạng một lưu đồ thực thể quan hệ ERD, dựa vào bản thiết kế CSDL này ta có thể viết các câu lệnh để tạo ra bản thiết kế CSDL đó. <br>
+<ol>
+     Các bước phân tích và thiết kế CSDL :
+     <li>Xác định mục đích của CSDL</li>
+     <li>Tìm hiểu và tổ chức các thông tin cần lưu trữ.</li>
+     <li>Phân chia thông tin vào các bảng</li>
+     <li>Xác định các trường dữ liệu của bảng.</li>
+     <li>Xác định khóa chính của bảng</li>
+     <li>XÁc định mối quan hệ giữa các bảng.</li>
+     <li>Làm mịn thiết kế</li>
+     <li>Áp dụng các quy tắc chuẩn hóa</li>
+</ol>
+Khi thiết kế CSDL, ta cần tuân thủ các chuẩn hóa bao gồm : chuẩn hóa 1NF, chuẩn hóa 2NF, chuẩn hóa 3NF.Đồng thời cũng phải tuân thủ quy tắc về tính toàn vẹn gồm :
+Quy tắc của Entity : khóa chính không được phép NULL, nếu không thì nó không thể xác định được duy nhất cho row dữ liệu.Đối với composite key được tạo bởi nhiều cột thì tất cả các column không được phép NULL( các RDBMS kiểm tra và tuân thủ nguyên tắc này) ;
+Quy tắc của tham chiếu : Mỗi giá trị của FOREIGN KEY phải khớp với giá trị khóa chính trong table được tham chiếu, có thể chèn một dùng với FOREIGN KEY  trong bảng con chỉ khi nó tồn tại trong bảng cha. Nếu trong bảng cha value của khóa thay đổi thì tất cả các dòng của FOREIGN KEY  trong các bảng con cũng phải được xử lý tương ứng.Có thể thiết lập cho việc kiểm tra và đảm bảo tính toàn vẹn của tham chiếu dữ liệu giữa các bảng.;
+Quy tắc của nghiệp vụ logic : Bên cạnh hai quy tắc trên có thể có tính toàn vẹn liên quan đến business logic.;
+<br> <br>
 # Ngày 23/2/2021
 Hệ quản trị cơ sở dữ liệu(Database Management System )là hệ thống được thiết kế quản lí một khối lượng dữ liệu nhất định một cách tự động và có trật tự. Các hành động quản lý bao gồm chỉnh, sửa, xóa, lưu thông tin và tìm kiếm trong một nhóm dữ liệu nhất định. 
 Nói một cách khác hệ quản trị CSDL là hệ thống tự động giúp người dùng kiểm soát các thông tin, tạo, cập nhật và duy trì các CSDL. Trong đó có 2 thành phần chính trong một hệ quản trị CSDL là bộ xử lí yêu cầu và bộ quản lí dữ liệu.<br>
