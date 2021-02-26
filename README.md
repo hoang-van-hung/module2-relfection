@@ -1,5 +1,19 @@
 
 # Module2-relfection
+# Ngày 26/2/2021 
+Luyện tập một số hàm có sẵn trong SQL : AVG, MIN, MAX, cOUNT, SUM, UCASE, LCASE,...
+<ul>
+     <li>Hàm AVG dùng để tính trung bình của cột trong SQL : <br>
+ SELECT AVG(product.price) FROM product;</li>
+     <li>Hàm MIN dùng để tính trung bình của cột trong SQL : <br>
+ SELECT MIN(product.price) FROM product;</li>
+     <li>Hàm MAX dùng để tính trung bình của cột trong SQL : <br>
+ SELECT MAX(product.price) FROM product;</li>
+</ul>
+
+ 
+
+<br> <br>
 # Ngày 24/2/2021
 Phân tích và thiết kế CSDL là các thao tác được thực hiện để tìm ra một mô hình CSDL trong một tình huống nhất định, kết quả trả về là một bản thiết kế CSDL.Bản thiết kế này thường được biểu diễn dưới dạng một lưu đồ thực thể quan hệ ERD, dựa vào bản thiết kế CSDL này ta có thể viết các câu lệnh để tạo ra bản thiết kế CSDL đó. <br>
 <ol>
