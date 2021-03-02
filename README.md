@@ -1,5 +1,6 @@
 
 # Module2-relfection
+# Ngày 2/3/2021 
 Các câu lệnh thực thi CRUD(CREAT -READ - UPDATE - DELETE) trong MySQL :
 Creat : từ khóa dùng để tạo bảng, dữ liệu,...
 Cú pháp : CREAT DATABASE database_name; 
