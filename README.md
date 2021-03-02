@@ -1,5 +1,45 @@
 
 # Module2-relfection
+Các câu lệnh thực thi CRUD(CREAT -READ - UPDATE - DELETE) trong MySQL :
+Creat : từ khóa dùng để tạo bảng, dữ liệu,...
+Cú pháp : CREAT DATABASE database_name; 
+CREAT TABLE tablename(
+      column1 data_type,
+      column2 data_type );
+<ul>
+      <li>Creat : từ khóa dùng để tạo bảng, dữ liệu,...</li>
+      <li>Cú pháp : CREAT DATABASE database_name; 
+            CREAT TABLE tablename(
+      column1 data_type,
+      column2 data_type );</li>
+      <li>READ : đọc dữ liệu, hiện thị dữ liệu từ database ra view cho người dùng nhìn thấy.</li>
+      <li>INSERT : chèn dữ liệu vào bảng, ta có thể chèn dữ liệu vào một cột, một số cột hoặc toàn bộ bảng</li>
+      <li>Cú pháp : 
+INSERT INTO table_name (column1, column2, column3, ...)
+      VALUES (value1, value2, value3, ...)</li>
+      <li>UPDATE : cập nhập dữ liệu trong bảng, thay đổi giá trị của các cột trong bảng khi chỉ ra điều kiện cụ thể.</li>
+      <li>Cú pháp :
+      UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition </li>
+      <li>DELETE : dùng để xóa một bản ghi trong bảng</li>
+      <li>Cú pháp : 
+      delete from table_name where condition</li>
+      <li>SELECT : Câu lệnh SELECT để hiện thị dữ liệu trong bảng. Dữ liệu trả về lưu trong bảng kết quả.</li>
+      <li>Cú pháp : 
+      select column1, column 2, ... from table_name</li>
+      <li></li>
+</ul>
+
+
+
+
+
+
+
+
+      
+
+
+<br><br>
 # Ngày 1/3 
 <ul>
       <li>-Các bản ghi được lưu trữ vào trong bảng theo đúng thứ tự như khi nhập vào.Do đó có thể dữ liệu này không được sắp xếp , khi muốn tìm kiếm dữ liệu trên bảng cần phải quét toàn bộ bảng. Điều này làm chậm tốc độ thực thi truy vấn.Để nâng cao tốc độ truy vấn ta có thể thêm chỉ mục cho dữ liệu.</li>
