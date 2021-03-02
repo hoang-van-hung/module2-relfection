@@ -1,5 +1,37 @@
 
 # Module2-relfection
+# Ngày 1/3 
+<ul>
+      <li>-Các bản ghi được lưu trữ vào trong bảng theo đúng thứ tự như khi nhập vào.Do đó có thể dữ liệu này không được sắp xếp , khi muốn tìm kiếm dữ liệu trên bảng cần phải quét toàn bộ bảng. Điều này làm chậm tốc độ thực thi truy vấn.Để nâng cao tốc độ truy vấn ta có thể thêm chỉ mục cho dữ liệu.</li>
+      <li>Ưu điểm : </li>
+      <li>Chỉ mục cho phép chương trình tìm dữ liệu trong bảng mà không cần duyệt qua toàn bộ bảng.</li>
+      <li>Chỉ mục giúp tăng tốc độ thực thi các truy vấn cần nối nhiều bảng hay cần sắp xếp dữ liệu.</li>
+      <li>Một chỉ mục hợp lý có thể cải thiện sự thực thi cơ sở dữ liệu bởi giảm bớt thời gian truy cập</li>
+      <li>Hạn chế</li>
+      <li>Các bảng có các chỉ mục đòi hỏi nhiều dung lượng bộ nhớ hơn trong CSDL</li>
+      <li>Các lệnh thao tác dữ liệu đòi hỏi nhiều thời gian xử lý hơn vì chúng cần cập nhập các thay đổi tới các chỉ mục.</li>
+      <li>Cú pháp tạo chỉ mục :</li>
+      <li>CREATE [UNIQUE] [CLUSTERED | NONCLUSTERED ] INDEX index_name
+ON <table or view> ( column_name [ ASC | DESC ] [ ,...n ] ) </li>
+      <li>Thêm index cho bảng, với index mang tính duy nhất và không thể null
+ALTER TABLE tbl_name ADD PRIMARY KEY (olumn 1, column 2,..)</li>
+      <li>Xóa chỉ mục : 
+DROP INDEX table_name.index_name</li>
+</ul> <li></li>
+<ul>
+     <li>Thủ tục lưu trữ là tập hợp các câu lệnh transact-SQL được xem như một khối lệnh đơn nhắm thực hiện một tác vụ cụ thể.Hữu ích cho những tác vụ thực hiện lặp đi lặp lại.Hỗ trọ các biến do người dùng khai báo, các điều kiện thực thi và các đặc trưng khác.</li>
+     <li>Ưu điểm :</li>
+     <li>Tăng tính bảo mật</li>
+     <li>Thực thi tiền biên dịch</li>
+     <li>Giảm thiểu lưu thông trong mô hình Client-Server</li>
+     <li>Khả năng sử dụng lại</li>
+     <li>Có 3 loai thủ tục : thủ tục hệ thống để tương tác với các bảng hệ thống và thực hiện các tác vụ quản trị
+Thủ tục mở rộng giúp SQL Server tương tác với hệ điều hành và thủ tục lưu do người dùng định nghĩa 
+</li>
+     <li></li>
+     <li></li>
+</ul>
+<br> <br>
 # Ngày 26/2/2021 
 Luyện tập một số hàm có sẵn trong SQL : AVG, MIN, MAX, cOUNT, SUM, UCASE, LCASE,...
 <ul>
