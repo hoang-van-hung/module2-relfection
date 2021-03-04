@@ -1,5 +1,42 @@
 
 # Module2-relfection
+# Ngày 3/3/2021 
+MVC là viết tắt của Model – View – Controller. Là một mẫu kiến trúc phần mềm hay mô hình thiết kế được sử dụng trong kỹ thuật phần mềm để tạo lập giao diện người dùng trên máy tính. MVC chia ứng dụng thành ba phần (layer) riêng biệt, độc lập và có thể tương tác được với nhau.
+<ul>
+      Luồng xử lý trong mô hình MVC
+      <li>Client gửi yêu cầu đến server thông qua Controller, Controller sẽ tiếp nhận yêu cầu.</li>
+      <li>Controller sẽ xử lý dữ liệu đầu vào, và quyết đinh luồng đi tiếp theo của yêu cầu. Trả về kết quả hay tương tác với database để lấy dữ liệu. Nếu cần tương tác với Model để lấy dữ liệu, Controller sẽ gọi tới Model để lấy dữ liệu đầu ra. Nếu không, Controller sẽ trả về kết quả theo mũi tên số (8).
+</li>
+      <li>Model tương tác với Database để truy xuất dữ liệu phù hợp với yêu cầu.</li>
+      <li>Database trả về cho Model dữ liệu theo yêu cầu của Model.</li>
+      <li>Model trả về dữ liệu cho Controller xử lý.</li>
+      <li>Controller sẽ gọi đến View phù hợp với yêu cầu và kèm theo dữ liệu cho View. View chịu trách nhiệm hiển thị dữ liệu phù hợp với yêu cầu.
+</li>
+      <li>Sau khi xử lý hiển thị dữ liệu, View trả về cho Controller kết quả (HTML, XML hoặc JSON…).</li>
+      <li>Sau khi hoàn tất, Controller sẽ trả về kết quả cho Client.</li>
+      
+</ul>
+
+<ul>
+      Ưu điểm của mô hình MVC
+      <li>Tạo mô hình chuẩn cho dự án, giúp cho việc tiếp cận với ứng dụng dễ dàng hơn</li>
+      <li>Trình tự xử lý rõ ràng, nhiệm vụ riêng biệt, độc lập với các thành phần khác và các thành phần có thể tương tác được với nhau.</li>
+      <li>Quy hoạch các thành phần riêng biệt giúp cho quá trình phát triển, quản lý, vận hành, bảo trì ứng dụng thuận lợi hơn, đồng thời dễ dàng kiểm soát được luồng xử lý của ứng dụng.</li>
+      <li>Mô hình triển khai rõ ràng, mạch lạc, xử lý nghiệp vụ tốt, dễ dàng triển khai các ứng dụng vừa.</li>
+      <li></li>
+</ul>
+
+<ul>
+      Nhược điểm của mô hình MVC
+      <li>Phân chia công việc và nghiệp vụ giữa các thành phần không đồng đều, trong đó Model phải xử lý rất nhiều tác vụ.</li>
+      <li>Sự hỗ trợ cho quá trình kiểm thử không quá tốt bởi lớp View phải phụ thuộc vào cả Controller và Model. View sẽ không thể xử lý được vấn đề gì bởi View không thể nhận yêu cầu và cũng không có dữ liệu để hiển thị. Để tiến hành kiểm thử trên View, chúng ta cần giả lập cả Controller và Model.
+</li>
+      <li>Đối với các mô hình, ứng dụng nhỏ thì việc triển khai sử dụng MVC có vẻ quá cồng kềnh.</li>
+      <li>Đối với các ứng dụng quy mô lớn, quy trình xử lý nghiệp vụ có tính phức tạp cao, lượng dữ liệu lớn thì mô hình MVC trở nên không còn khả dụng.
+</li>
+      <li></li>
+</ul>
+<br><br>
 # Ngày 2/3/2021 
 Các câu lệnh thực thi CRUD(CREAT -READ - UPDATE - DELETE) trong MySQL :
 Creat : từ khóa dùng để tạo bảng, dữ liệu,...
