@@ -1,5 +1,23 @@
 
 # Module2-relfection
+# Ngày 4/3/2021
+CSS là ngôn ngữ tạo phong cách cho trang web.Nó dùng để tạo phong cách và định kiểu cho những yếu tố được viết dưới dạng ngôn ngữ đánh dấu, như là HTML. Nó có thể điều khiển định dạng của nhiều trang web cùng lúc để tiết kiệm công sức cho người viết web.
+CSS được phát triển bởi W3C vào năm 1996 vì lý do HTML không được thiết kế để gắn tag để giúp định dạng trang web.
+<ul>
+      Ưu điểm của CSS :
+      <li>CSS giúp bạn thực hiện định kiểu mọi thứ mình muốn lên một file khác. Nhờ vậy, bạn có thể tạo ra được những phong cách phù hợp rồi mới tích hợp các file CSS lên trên cùng file của HTML. Điều này sẽ giúp cho HTML được makup rõ ràng nhất và người dùng có thể quản lý website dễ dàng hơn. </li>
+      <li>Sử dụng CSS sẽ giúp bạn không cần thực hiện lặp lại các mô tả cho từng thành phần. Từ đó, bạn có thể tiết kiệm được tối đa thời gian làm việc với nó, làm code ngắn lại giúp kiểm soát dễ dàng hơn các lỗi không đáng có.</li>
+      <li>CSS giúp người dùng nhiều styles trên một trang web HTML nên khả năng điều chỉnh trang của bạn trở nên vô hạn.</li>
+      <li>Nhờ CSS mà mã nguồn của trang Web sẽ được tổ chức gọn gàng hơn, trật tự hơn, nội dung trang ư web sẽ được tách bạch hơn trong việc định dạng hiển thị. Từ đó, quá trình cập nhập nội dung sẽ dễ dàng hơn và có thể hạn chế tối thiểu làm rối cho mã HTML. </li>
+      <li>CSS tạo ra nhiều kiểu dáng nên có thể được áp dụng với nhiều trang web, từ đó giảm tránh việc lặp lại các định dạng của các trang web giống nhau.</li>
+</ul>
+<ul>
+      Cách nhúng CSS vào website:
+      <li>Viết mã CSS trực tiếp vào thẻ HTMl.</li>
+      <li>Viết mã CSS trong cặp thẻ style</li>
+      <li>Nhúng mã CSS từ một file khác vào trang HTMl</li>
+</ul>
+<br><br>
 # Ngày 3/3/2021 
 MVC là viết tắt của Model – View – Controller. Là một mẫu kiến trúc phần mềm hay mô hình thiết kế được sử dụng trong kỹ thuật phần mềm để tạo lập giao diện người dùng trên máy tính. MVC chia ứng dụng thành ba phần (layer) riêng biệt, độc lập và có thể tương tác được với nhau.
 <ul>
