@@ -1,5 +1,26 @@
 
 # Module2-relfection
+# Ngày 5/3/2021
+Thiết kế layout hay thiết kế bố cục là bước đầu tiên và rất quan trọng trong quy trình thiết kế một website. Có một số cách thiết kế website bằng CSS, tuy nhiên kỹ thuật đang được sử dụng phổ biến và đạt hiệu quả khá cao hiện nay là kết hợp HTML Div với CSS. Sử dụng cách này, website sẽ chạy khá mượt, đáp ứng được những yêu cầu nhất định của người dùng.
+<ul>
+      <li>Một website thường được chia thành các phần bao gồm header, thanh menu, nội dung và footer.</li>
+      <li>Header thường nằm ở đầu trang web (hoặc ngay bên dưới menu điều hướng trên cùng). Phần này thường chứa logo hoặc tên website hay một vài khẩu hiệu của trang web.</li>
+      <li>Thanh điều hướng - Navigation Bar hay còn gọi là thanh menu, được dùng để điều hướng các mục chính trên website.</li>
+      <li>Layout trong section này thường phụ thuộc vào đối tượng người dùng. Cách bố cục phổ biến là một hoặc kết hợp những trường hợp sau:</li>
+      1 cột: thường sử dụng cho trình duyệt trên di động
+      2 cột: thường sử dụng cho laptop và máy tính bảng.
+      3 cột: thường sử dụng cho trình duyệt trên máy tính để bàn.
+</ul>
+
+
+
+
+
+
+
+
+Footer được đặt ở cuối trang, thường chứa thông tin như bản quyền, thông tin liên lạc...
+<br><br>
 # Ngày 4/3/2021
 CSS là ngôn ngữ tạo phong cách cho trang web.Nó dùng để tạo phong cách và định kiểu cho những yếu tố được viết dưới dạng ngôn ngữ đánh dấu, như là HTML. Nó có thể điều khiển định dạng của nhiều trang web cùng lúc để tiết kiệm công sức cho người viết web.
 CSS được phát triển bởi W3C vào năm 1996 vì lý do HTML không được thiết kế để gắn tag để giúp định dạng trang web.
