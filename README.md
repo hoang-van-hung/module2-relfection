@@ -6,20 +6,12 @@ Thiết kế layout hay thiết kế bố cục là bước đầu tiên và r�
       <li>Một website thường được chia thành các phần bao gồm header, thanh menu, nội dung và footer.</li>
       <li>Header thường nằm ở đầu trang web (hoặc ngay bên dưới menu điều hướng trên cùng). Phần này thường chứa logo hoặc tên website hay một vài khẩu hiệu của trang web.</li>
       <li>Thanh điều hướng - Navigation Bar hay còn gọi là thanh menu, được dùng để điều hướng các mục chính trên website.</li>
-      <li>Layout trong section này thường phụ thuộc vào đối tượng người dùng. Cách bố cục phổ biến là một hoặc kết hợp những trường hợp sau:</li>
-      1 cột: thường sử dụng cho trình duyệt trên di động
-      2 cột: thường sử dụng cho laptop và máy tính bảng.
-      3 cột: thường sử dụng cho trình duyệt trên máy tính để bàn.
+      <li>Layout trong section này thường phụ thuộc vào đối tượng người dùng. Cách bố cục phổ biến là một hoặc kết hợp những trường hợp sau:</li> <br>
+      1 cột: thường sử dụng cho trình duyệt trên di động <br>
+      2 cột: thường sử dụng cho laptop và máy tính bảng.<br>
+      3 cột: thường sử dụng cho trình duyệt trên máy tính để bàn.<br>
+      <li>Footer được đặt ở cuối trang, thường chứa thông tin như bản quyền, thông tin liên lạc...</li>
 </ul>
-
-
-
-
-
-
-
-
-Footer được đặt ở cuối trang, thường chứa thông tin như bản quyền, thông tin liên lạc...
 <br><br>
 # Ngày 4/3/2021
 CSS là ngôn ngữ tạo phong cách cho trang web.Nó dùng để tạo phong cách và định kiểu cho những yếu tố được viết dưới dạng ngôn ngữ đánh dấu, như là HTML. Nó có thể điều khiển định dạng của nhiều trang web cùng lúc để tiết kiệm công sức cho người viết web.
